@@ -1,0 +1,25 @@
+{
+    "name": "samheer/contao-formStoreValuesNotification",
+    "type": "contao-module",
+    "description": "Contao Extension to ",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Samuel Heer",
+            "homepage": "https://github.com/samheer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "composer/composer": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contao\\CoreBundle\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
