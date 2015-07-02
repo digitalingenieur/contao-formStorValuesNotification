@@ -9,9 +9,11 @@
             "homepage": "https://github.com/digitalingenieur"
         }
     ],
+	"support":{
+		"issues":"https://github.com/digitalingenieur/contao-formStoreValuesNotification/issues"
+	},
     "require": {
-        "php": ">=5.4.0",
-		"contao/core":"~3.2",
+		"contao/core":">=3.2,<4.0.0",
 		"contao-community-alliance/composer-plugin":"*",
     },
    "extra":{
