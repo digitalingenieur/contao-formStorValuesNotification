@@ -1,25 +1,24 @@
 {
-    "name": "samheer/contao-formStoreValuesNotification",
+    "name": "digitalingenieur/contao-formStoreValuesNotification",
     "type": "contao-module",
-    "description": "Contao Extension to ",
+    "description": "Backend module for sending notification on storing values recieved through form generator for Contao Open Source CMS.",
     "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "Samuel Heer",
-            "homepage": "https://github.com/samheer"
+            "homepage": "https://github.com/digitalingenieur"
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+		"contao/core":"~3.2",
+		"contao-community-alliance/composer-plugin":"*",
     },
-    "require-dev": {
-        "composer/composer": "~1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Contao\\CoreBundle\\": "src/"
-        }
-    },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+   "extra":{
+		"contao": {
+			"sources":{
+				"": "system/modules/formStoreValuesNotification"
+			}
+		}
+   }
 }
